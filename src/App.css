@@ -1,0 +1,49 @@
+.App {
+  min-height: calc(100vh - 60px);
+  background-color: #f2f2f7;
+  padding: 1rem;
+}
+
+.App-logo {
+  max-width: 180px;
+  pointer-events: none;
+}
+
+.App-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: #1f2f36;
+}
+
+
+
+
+table {
+  text-align: left;
+}
+
+:root {
+  --bs-primary: #0078c8;
+}
+
+.btn-primary {
+  --bs-btn-bg: var(--bs-primary);
+  --bs-btn-border-color: var(--bs-primary);
+  --bs-btn-hover-bg: #035f84;
+
+}
+
+.App-link {
+  color: var(--bs-primary)
+}
+
+.cursor-pointer {
+  cursor: pointer
+}
+
+.cursor-disabled {
+  cursor: not-allowed
+}
